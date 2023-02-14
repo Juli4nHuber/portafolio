@@ -1,0 +1,132 @@
+  @import "@fontsource/saira-extra-condensed";
+
+  .t1 {
+    font-size: calc(1.725rem + 5.7vw);
+  }
+  @media (min-width: 1200px) {
+    .t1 {
+      font-size: 6rem;
+    }
+  }
+  
+  .t2 {
+    font-size: calc(1.475rem + 2.7vw);
+  }
+  @media (min-width: 1200px) {
+    .t2 {
+      font-size: 3.5rem;
+    }
+  }
+  
+  .t3 {
+    font-size: calc(1.325rem + 0.9vw);
+  }
+  @media (min-width: 1200px) {
+    .t3 {
+      font-size: 2rem;
+    }
+  }
+  
+  .t4 {
+    font-size: calc(1.275rem + 0.3vw);
+  }
+  @media (min-width: 1200px) {
+    .t4 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  .t5 {
+    font-size: 1.25rem;
+  }
+  
+  .t6 {
+    font-size: 1rem;
+  }
+
+  .t1,
+  .t2,
+  .t3,
+  .t4,
+  .t5,
+  .t6 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      font-weight: 700;
+      line-height: 1.2;
+      color: #343a40;
+      text-transform: uppercase;
+  }
+
+  p.lead {
+      font-family: "Mulish", sans-serif;
+      font-size: 1.15rem;
+      font-weight: 400;
+  }
+
+  .subheading {
+      font-family: "Saira Extra Condensed";
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 1.5rem;
+  }
+
+
+  .social-icons .social-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 3.5rem;
+      width: 3.5rem;
+      background-color: #495057;
+      color: #fff;
+      border-radius: 100%;
+      font-size: 1.5rem;
+      margin-right: 1.5rem;
+  }
+
+  .social-icons .social-icon:last-child {
+      margin-right: 0;
+  }
+
+  .social-icons .social-icon:hover {
+      background-color: #bd5d38;
+  }
+
+  .dev-icons {
+      font-size: 3rem;
+  }
+
+  section.resume-section {
+      display: flex;
+      align-items: center;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      max-width: 75rem;
+  }
+
+  section.resume-section .resume-section-content {
+      width: 100%;
+  }
+
+  @media (min-width: 768px) {
+      section.resume-section {
+          min-height: 100vh;
+      }
+  }
+
+  @media (min-width: 992px) {
+      section.resume-section {
+          padding-left: 3rem;
+          padding-right: 3rem;
+          padding-top: 5rem;
+          padding-bottom: 5rem;
+      }
+  }
+
+  .fa-li {
+    color: #EAA221
+  }

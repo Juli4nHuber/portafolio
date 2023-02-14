@@ -1,0 +1,20 @@
+$primary: #bd5d38;
+$form-check-input-checked-bg-color: #495057;
+
+$theme-colors: (
+  "primary": $primary
+);
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    padding-top: 3.375rem;
+    color: #6c757d;
+  }
+  
+  @media (min-width: 992px) {
+    body {
+      padding-top: 0;
+      padding-left: 17rem;
+    }
+  }
