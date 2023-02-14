@@ -2,7 +2,7 @@ import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck, faTrophy } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedinIn, faGithub, faTwitter, faFacebook, faHtml5, faCss3, faSquareJs, faAngular, faReact, faNodeJs, faSass, faLess, faWordpress, faGulp, faGrunt, faNpm } from '@fortawesome/free-brands-svg-icons'
-import SideNav from './img/components/SideNav';
+import SideNav from './components/SideNav';
 function App() {
   
   return (
@@ -13,7 +13,7 @@ function App() {
             {/* <!-- About--> */}
             <section className="resume-section" id="about">
                 <div className="resume-section-content">
-                    <h1 className="mb-0">
+                    <h1 className="">
                         Clarence
                         <span className="text-primary">Taylor</span>
                     </h1>
